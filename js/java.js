@@ -140,24 +140,27 @@ function q6(){
 }
 q6();
 
-alert ('new gis');
-let clasNumber =['apple','banana','orange','potato','tomato','carrots'];
-let fruit
-fruit=prompt('gis fruit');
-for (let n =0;n<6;n++)
-{
-  if(fruit === clasNumber[0] || fruit === clasNumber[1] || fruit === clasNumber[2] || fruit === clasNumber[3] || fruit === clasNumber[4] || fruit=== clasNumber[5]){
-    alert('your answer is correct');
-    grade++;
-    break ;
+function q7(){
+  alert ('new gis');
+  let clasNumber =['apple','banana','orange','potato','tomato','carrots'];
+  let fruit
+  fruit=prompt('gis fruit');
+  for (let n =0;n<6;n++)
+  {
+    if(fruit === clasNumber[0] || fruit === clasNumber[1] || fruit === clasNumber[2] || fruit === clasNumber[3] || fruit === clasNumber[4] || fruit=== clasNumber[5]){
+      alert('your answer is correct');
+      grade++;
+      break ;
 
-  }else if(n<5){
-    alert('your fruit is uncorrect');
-    fruit =prompt('gis fruit');
-  }
-  else if (n=5) {
-    alert('apple  banana  orange  potato  tomato  carrots');
-  } }
+    }else if(n<5){
+      alert('your fruit is uncorrect');
+      fruit =prompt('gis fruit');
+    }
+    else if (n=5) {
+      alert('apple  banana  orange  potato  tomato  carrots');
+    } }
+}
+q7();
 
 console.log(grade);
 
