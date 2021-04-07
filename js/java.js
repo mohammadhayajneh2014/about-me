@@ -67,22 +67,27 @@ function q3(){
 }
 q3();
 
-let answer4 = prompt ('Do You have a laptop?');
-console.log(answer4);
-answer4 =answer4.toLocaleLowerCase();
-console.log(answer4);
-switch(answer4){
+function q4(){
+  let answer4 = prompt ('Do You have a laptop?');
+  console.log(answer4);
+  answer4 =answer4.toLocaleLowerCase();
+  console.log(answer4);
+  switch(answer4){
 
-case 'yes':
-case'y':
-  alert('yes i have');
-  grade ++;
-  break;
-case 'no':
-case 'n' :
-  alert(' no ');
-  break ;
+  case 'yes':
+  case'y':
+    alert('yes i have');
+    grade ++;
+    break;
+  case 'no':
+  case 'n' :
+    alert(' no ');
+    break ;
+  }
 }
+q4();
+
+
 let answer5 = prompt ('do you have a phone?');
 console.log(answer5);
 answer5 =answer5.toLocaleLowerCase();
