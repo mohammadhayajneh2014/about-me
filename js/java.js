@@ -43,7 +43,7 @@ function q2(){
   case 'n' :
     alert(' no ');
     break ;
-  } 
+  }
 }
 q2();
 
@@ -107,47 +107,50 @@ function q5(){
 }
 q5();
 
+function q6(){
+  alert('gis number')
+  let number = 5;
+  number = parseInt(number);
+  let gis =prompt('gis number');
+  gis = parseInt(gis);
+  for(let i=0; i<=3;i++)
+  {
+    if (gis===number) {
+      alert( 'your number is correct');
+      grade++;
+      break;
 
-alert('gis number')
-let number = 5;
-number = parseInt(number);
-let gis =prompt('gis number');
-gis = parseInt(gis);
-for(let i=0; i<=3;i++)
-{ 
-  if (gis===number) {
-    alert( 'your number is correct');
-    grade++;
-    break;
-    
-  } else if (gis< number) {
-    alert('your number is low or high');
-    gis = prompt('gis number');
-    gis = parseInt(gis);
-    
+    } else if (gis< number) {
+      alert('your number is low or high');
+      gis = prompt('gis number');
+      gis = parseInt(gis);
+
+    }
+    else if ( gis>number) {
+      alert('your number is high');
+      gis = prompt('gis number');
+      gis = parseInt(gis);
+
+    } else if (i=3) {
+      alert('the correct answer is 5')
+      break ;
+    }
+
   }
-  else if ( gis>number) {
-    alert('your number is high');
-    gis = prompt('gis number');
-    gis = parseInt(gis);
-    
-  } else if (i=3) {
-    alert('the correct answer is 5')
-    break ;
-  } 
-    
 }
+q6();
+
 alert ('new gis');
 let clasNumber =['apple','banana','orange','potato','tomato','carrots'];
 let fruit
 fruit=prompt('gis fruit');
 for (let n =0;n<6;n++)
-{ 
+{
   if(fruit === clasNumber[0] || fruit === clasNumber[1] || fruit === clasNumber[2] || fruit === clasNumber[3] || fruit === clasNumber[4] || fruit=== clasNumber[5]){
     alert('your answer is correct');
     grade++;
-    break ;  
-   
+    break ;
+
   }else if(n<5){
     alert('your fruit is uncorrect');
     fruit =prompt('gis fruit');
