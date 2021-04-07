@@ -27,23 +27,25 @@ function q1(){
 
 q1();
 
+function q2(){
+  let answer2 = prompt ('Did you play football?');
+  console.log(answer2);
+  answer2 =answer2.toLocaleLowerCase();
+  console.log(answer2);
+  switch(answer2){
 
-let answer2 = prompt ('Did you play football?');
-console.log(answer2);
-answer2 =answer2.toLocaleLowerCase();
-console.log(answer2);
-switch(answer2){
-
-case 'yes':
-case'y':
-  alert('yes i did');
-  grade ++;
-  break;
-case 'no':
-case 'n' :
-  alert(' no ');
-  break ;
-} 
+  case 'yes':
+  case'y':
+    alert('yes i did');
+    grade ++;
+    break;
+  case 'no':
+  case 'n' :
+    alert(' no ');
+    break ;
+  } 
+}
+q2();
 
 let answer3 = prompt ('Do you like apples?');
 console.log(answer3);
