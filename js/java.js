@@ -47,23 +47,25 @@ function q2(){
 }
 q2();
 
-let answer3 = prompt ('Do you like apples?');
-console.log(answer3);
-answer3 =answer3.toLocaleLowerCase();
-console.log(answer3);
-switch(answer3){
+function q3(){
+  let answer3 = prompt ('Do you like apples?');
+  console.log(answer3);
+  answer3 =answer3.toLocaleLowerCase();
+  console.log(answer3);
+  switch(answer3){
 
-case 'yes':
-case'y':
-  alert('yes i do');
-  grade ++;
-  break;
-case 'no':
-case 'n' :
-  alert(' no ');
-  break ;
-} 
-
+  case 'yes':
+  case'y':
+    alert('yes i do');
+    grade ++;
+    break;
+  case 'no':
+  case 'n' :
+    alert(' no ');
+    break ;
+  }
+}
+q3();
 
 let answer4 = prompt ('Do You have a laptop?');
 console.log(answer4);
