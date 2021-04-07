@@ -87,24 +87,26 @@ function q4(){
 }
 q4();
 
+function q5(){
+  let answer5 = prompt ('do you have a phone?');
+  console.log(answer5);
+  answer5 =answer5.toLocaleLowerCase();
+  console.log(answer5);
+  switch(answer5){
 
-let answer5 = prompt ('do you have a phone?');
-console.log(answer5);
-answer5 =answer5.toLocaleLowerCase();
-console.log(answer5);
-switch(answer5){
-
-case 'yes':
-case'y':
-  alert('yes i have');
-  grade ++;
-  break;
-case 'no':
-case 'n' :
-  alert(' no ');
-  break ;
+  case 'yes':
+  case'y':
+    alert('yes i have');
+    grade ++;
+    break;
+  case 'no':
+  case 'n' :
+    alert(' no ');
+    break ;
+  }
 }
- 
+q5();
+
 
 alert('gis number')
 let number = 5;
