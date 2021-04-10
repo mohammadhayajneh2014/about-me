@@ -143,4 +143,4 @@ for (let n =0;n<6;n++)
 
 console.log(grade);
 
-alert(grade);
+alert(grade); 
